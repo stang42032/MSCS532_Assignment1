@@ -9,16 +9,16 @@ This repository contains a Python implementation of the **Insertion Sort** algor
 python3 main.py
 ```
 
-## How to test
+## How to test if the insertion Sort Algorithm runs correctly with correct results
 
 ```bash
 python3 -m pytest -q
 ```
 
 ## Files
-- `src/insertion_sort.py` — insertion sort implementation (descending).
+- `insertion_sort.py` — insertion sort implementation (descending).
 - `main.py` — small CLI demo using the algorithm.
-- `tests/test_insertion_sort.py` — unit tests.
+- `test_insertion_sort.py` — unit tests.
 
 ## Complexity
 - **Time:** O(n^2) worst/average, O(n) best (when already sorted in descending order).
